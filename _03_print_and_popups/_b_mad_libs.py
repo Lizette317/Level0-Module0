@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # Hide the window using the window's .withdraw() method
 
     # Put this sentence in a pop-up message box:
-    ('If you find yourself having to crss a piranha-infested river, here is how to do it...')
+    ('If you find yourself having to crss a pranha-infested river, here is how to do it...')
     # Get the player to enter an adjective
 
     # Get the player to enter a type of liquid
