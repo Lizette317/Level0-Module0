@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # Put this sentence in a pop-up message box:
     simpledialog.askstring(title='Greeter', prompt="If you find yourself having to cross a piranha-infested river, "
                                                    "here is how to do it...\n"
-                                          "are you ready???")
+                                                   "are you ready???")
 
     # Get the player to enter an adjective
     adj = simpledialog.askstring(title='adj', prompt="enter an adjective")
@@ -31,11 +31,11 @@ if __name__ == '__main__':
     #       other parts of the story.
 
     story = (
-        "Piranhas are more " + adj + " during the day, so cross the river at\n"
-        "night. Piranhas are attracted to fresh " + tol + " and will most\n"
-        "likely take a bite out of your " + bp + " if you " + v + ". Whatever\n"
-        "you do, if you have an open wound, try to find another way\n"
-        "to get back to the " + p + ". Good luck!"
+            "Piranhas are more " + adj + " during the day, so cross the river at\n"
+                                         "night. Piranhas are attracted to fresh " + tol + " and will most\n"
+                                                                                           "likely take a bite out of your " + bp + " if you " + v + ". Whatever\n"
+                                                                                                                                                     "you do, if you have an open wound, try to find another way\n"
+                                                                                                                                                     "to get back to the " + p + ". Good luck!"
     )
 
     # Make a pop-up that contains the final story. The \n escape characters add

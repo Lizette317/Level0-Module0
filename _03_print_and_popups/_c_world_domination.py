@@ -13,10 +13,13 @@ s = simpledialog.askstring(title="code", prompt="do you know how to write code?"
 # 2. If they say "yes", tell them they will rule the world in a message box pop-up.
 if s == "yes":
     messagebox.Message("You will rule the world!")
+    print()
     messagebox.showinfo()
+
 else:
     messagebox.Message("sign up for a coding class!")
-    messagebox.showinfo()
+    print()
+    messagebox.showerror()
 
 # 3. Otherwise, tell them to sign up for classes at The League in an error box pop-up.
 
