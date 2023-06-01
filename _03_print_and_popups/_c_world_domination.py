@@ -19,7 +19,7 @@ if s == "yes":
 else:
     messagebox.Message("sign up for a coding class!")
     print()
-    messagebox.showerror()
+    messagebox.showerror("sign up for coding classes!")
 
 # 3. Otherwise, tell them to sign up for classes at The League in an error box pop-up.
 

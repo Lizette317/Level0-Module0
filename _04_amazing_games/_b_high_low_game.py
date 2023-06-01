@@ -22,7 +22,7 @@ for i in range(1):
         else:
             if guess == n:
                 print("you won! :D")
-                #sys.exit(0)
+                # sys.exit(0)
 # 4. Ask the user for a guess using a pop-up window, and save their response
 
 # 5. If the guess is correct
