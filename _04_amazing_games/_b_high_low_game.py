@@ -15,10 +15,10 @@ n = random.randint(1, 100)
 for i in range(1):
     guess = simpledialog.askinteger(title="idk", prompt="guess a number between 1 and 100")
     if guess > n:
-        print("too high, you lost :C")
+        print("too high, you lost :C, the number was " + str(n) + "!")
     else:
         if guess < n:
-            print("too low, you lost :C")
+            print("too low, you lost :C, the number was " + str(n) + "!")
         else:
             if guess == n:
                 print("you won! :D")

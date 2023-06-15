@@ -42,20 +42,12 @@ def screen_clicked(x, y):
 def key_pressed():
     print('You pressed the space key')
 
-
-
     # LASER BEAM.  This code will make your ellipse move down and to the right
     # when you press the space bar. Run the program to test it.
 
     # 10. Increment the x and y variables of the 2 eye variables by 5:
-    left_eye.x += 2
-    left_eye.x += 2
-    right_eye.y += 2
-    right_eye.y += 2
 
     # 11. Call the .draw() method for both eye variables.
-    right_eye.draw()
-    left_eye.draw()
 
 
 if __name__ == '__main__':
@@ -91,11 +83,9 @@ t.speed(0)
 #    and initialize them:
 #    left_eye  = Eye(eye=my_turtle, x=-34, y=11, radius=30)
 #    right_eye = Eye(eye=my_turtle, x=40, y=-5, radius=30)
-left_eye = Eye(eye=t, x=-49, y=71, radius=30)
-right_eye = Eye(eye=t, x=2, y=66, radius=30)
+
 # 9. Call the .draw() method on BOTH eye variables
-left_eye.draw()
-right_eye.draw()
+
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
 window.onclick(screen_clicked)
