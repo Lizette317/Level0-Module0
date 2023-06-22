@@ -78,7 +78,6 @@ t.speed(0)
 #    Variables for x and y have been created at the top of your sketch,
 #    now you can set them equal to the values you just found. Watch for
 #    negative signs!
-
 # 8. After you've found the x and y for the eyes create 2 eye variables
 #    and initialize them:
 #    left_eye  = Eye(eye=my_turtle, x=-34, y=11, radius=30)

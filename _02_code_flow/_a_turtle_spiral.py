@@ -28,7 +28,7 @@ if __name__ == '__main__':
         turtle.right(360/7)
         turtle.width(i)
     # Set the turtle color to a random color
-
+    turtle.color(get_random_color())
     # Move the turtle (5*i) pixels. 'i' is the loop variable
         
     # Turn the turtle (360/7) degrees to the right

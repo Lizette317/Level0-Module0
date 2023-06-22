@@ -34,4 +34,4 @@ if __name__ == '__main__':
     r = 360 / p
     # Use a for loop to repeat ALL the following lines of code 360 times. 
     for i in range(360):
-        t.forward(80)
+        t.forward(79)
